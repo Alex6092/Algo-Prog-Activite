@@ -19,5 +19,7 @@ public:
 	virtual void handleEvents(sf::RenderWindow * window, tgui::Gui * gui);
 	virtual void update(float deltatime);
 	virtual void render(sf::RenderWindow * window);
+
+	int getExerciceId();
 };
 
