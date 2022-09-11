@@ -130,12 +130,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ExerciceScreen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainScreen.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ScreenManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ExerciceScreen.h" />
     <ClInclude Include="MainScreen.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenManager.h" />

@@ -21,14 +21,26 @@ MainScreen::MainScreen(tgui::Gui * gui)
 	exerciceIdEdit->setDefaultText("Numéro exercice");
 	exerciceIdEdit->getRenderer()->setBackgroundColor(sf::Color(255, 255, 255, 200));
 
-	exerciceIdEdit->connect("pressed", [&]() {
-		int idExercice = this->getExerciceId();
-
-		// TODO : Changer de screen
-	});
-
 	gui->add(startExerciceButton);
 	gui->add(exerciceIdEdit);
+
+	startExerciceButton->connect("pressed", [&]() {
+		int idExercice = this->getExerciceId();
+		
+		// Changement de screen
+		Screen * nextScreen = NULL;
+		switch (idExercice)
+		{
+		case 1:
+
+			break;
+		}
+
+		if (nextScreen != NULL)
+		{
+
+		}
+	});
 }
 
 MainScreen::~MainScreen()

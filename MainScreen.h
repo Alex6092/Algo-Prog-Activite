@@ -6,8 +6,6 @@ class MainScreen : public Screen
 	tgui::Gui * gui;
 
 	sf::Font font;
-	sf::Text title;
-	sf::Text subtitle;
 
 	tgui::Button::Ptr startExerciceButton;
 	tgui::EditBox::Ptr exerciceIdEdit;
